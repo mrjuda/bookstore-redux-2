@@ -1,26 +1,27 @@
+// App.js
+
 import React from 'react';
 import {
-  BrowserRouter as Router,
-  // Switch,
-  // Redirect,
-  Route,
   Routes,
+  BrowserRouter as Router,
+  Route,
 } from 'react-router-dom';
 
 import { Navbar } from './app/Navbar';
-import { BooksList } from './redux/books/BooksList';
-import { AddBookForm } from './redux/books/AddBookForm';
+import { BooksList } from './components/books/BooksList';
+import { AddBookForm } from './components/books/AddBookForm';
+import { WebCategories } from './components/pages/WebCategories';
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <div className="App">
+    <div className="container">
+      <Router>
+        <Navbar />
         <Routes>
           <Route
             exact
             path="/"
-            render={() => (
+            element={(
               <>
                 <BooksList />
                 <AddBookForm />
@@ -28,9 +29,10 @@ function App() {
             )}
           />
           {/* <Redirect to="/" /> */}
+          <Route path="/WebCategories" element={<WebCategories />} />
         </Routes>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
