@@ -1,6 +1,6 @@
 # Bookstore (Redux version)
 ## 📑 Project description
-**Build v1.0**
+**Build v1.1**
 
 The Bookstore project was built using ReactJS, SCSS, HTML, and tested through Jest.
 This is a React/Redux project for educational purposes only.
