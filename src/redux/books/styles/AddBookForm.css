@@ -1,0 +1,26 @@
+.add-book-container {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 0.6rem;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.add-book-container .add-book-text {
+  width: 100%;
+  margin: 0;
+  border: solid #ccc 0.1rem;
+  border-radius: 0.2rem;
+  background-color: #eee;
+}
+
+.add-book-container button {
+  margin: 0;
+  background-color: #222;
+  min-width: 6rem;
+}
+/*# sourceMappingURL=AddBookForm.css.map */

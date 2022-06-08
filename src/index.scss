@@ -1,3 +1,5 @@
+// index.scss
+
 * {
   margin: 0 !important;
   padding: 0;
@@ -21,12 +23,8 @@ h1 {
 }
 
 .book {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin: 0.4rem 0 !important;
 }
 
@@ -46,4 +44,3 @@ button:active {
   background-color: #bbb !important;
   font-weight: 700 !important;
 }
-/*# sourceMappingURL=index.css.map */
