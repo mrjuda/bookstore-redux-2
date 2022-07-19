@@ -28,7 +28,6 @@ function App() {
               </>
             )}
           />
-          {/* <Redirect to="/" /> */}
           <Route path="/WebCategories" element={<WebCategories />} />
         </Routes>
       </Router>

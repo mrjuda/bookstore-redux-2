@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { checkStatus } from '../../redux/categories/categoriesSlice';
+import { checkStatus } from '../categories/categoriesSlice';
 
 export const WebCategories = () => {
   const dispatch = useDispatch();
@@ -10,8 +10,6 @@ export const WebCategories = () => {
   const callStatus = () => {
     dispatch(checkStatus({}));
   };
-
-  // const status = useSelector((state) => state.categories.value);
 
   return (
     <div className="cat-container">
