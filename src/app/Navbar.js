@@ -6,7 +6,7 @@ import '../index.css';
 export const Navbar = () => (
   <div className="WebHeader">
     <h1 className="HeaderTitle">
-      Bookstore (redux version)
+      JudaLabs` Bookstore
     </h1>
   </div>
 );

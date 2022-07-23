@@ -1,11 +1,11 @@
 // BooksList.js
-/* eslint-disable */
 
 import React from 'react';
 import { useSelector } from 'react-redux';
 import './styles/BooksList.css';
 
 export const BooksList = () => {
+  // eslint-disable-next-line react-redux/useSelector-prefer-selectors
   const books = useSelector((state) => state.books);
 
   const renderedBooks = books.map((book) => (
@@ -22,7 +22,7 @@ export const BooksList = () => {
   return (
     <section className="WebPage">
       <h2 className="HeaderTitle">
-        Welcome to the Bookstore!
+        Welcome to JudaLabs` Bookstore!
       </h2>
       <div className="text">
         <p>
