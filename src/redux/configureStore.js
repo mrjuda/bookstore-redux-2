@@ -1,6 +1,7 @@
 // configureStore.js
 
-import { configureStore } from '@reduxjs/toolkit';
+// import { configureStore } from '@reduxjs/toolkit';
+import { configureStore, combineReducers } from '@reduxjs/toolkit';
 import booksReducer from '../components/books/booksSlice';
 import categoriesReducer from '../components/categories/categoriesSlice';
 

@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom';
 
 import { Navbar } from './app/Navbar';
-import { BooksList } from './components/books/BooksList';
+import { BooksList } from './components/BooksList';
 import { AddBookForm } from './components/books/AddBookForm';
 import { WebCategories } from './components/pages/WebCategories';
 
