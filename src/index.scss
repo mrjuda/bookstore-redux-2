@@ -103,7 +103,7 @@
 }
 
 .btn-add-book {
-  color: #222 !important;
+  // color: #222 !important;
   padding: 0.1rem;
   margin: 0;
   border-radius: 3px;
@@ -140,13 +140,12 @@
       }
 
       .author-and-title {
-
         .book-title {
           font-family: Roboto Slab, Montserrat, sans-serif;
           font-size: 1.3rem;
           margin: 0;
         }
-  
+
         .book-author {
           margin: 0;
           padding: 0;
