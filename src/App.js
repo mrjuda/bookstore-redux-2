@@ -7,10 +7,9 @@ import {
   Route,
 } from 'react-router-dom';
 
-import { Navbar } from './app/Navbar';
-import { BooksList } from './components/BooksList';
-import { AddBookForm } from './components/books/AddBookForm';
-import { WebCategories } from './components/pages/WebCategories';
+import { Navbar } from './components/WebHeader';
+import { BookContainer } from './components/BookContainer';
+import { WebCategories } from './components/WebCategories';
 
 function App() {
   return (
@@ -23,8 +22,7 @@ function App() {
             path="/"
             element={(
               <>
-                <BooksList />
-                <AddBookForm />
+                <BookContainer />
               </>
             )}
           />

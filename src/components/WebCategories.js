@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { checkStatus } from '../categories/categoriesSlice';
+import { checkStatus } from '../redux/categories/categoriesSlice';
 
 export const WebCategories = () => {
   const dispatch = useDispatch();
