@@ -58,14 +58,14 @@
     align-items: center;
     margin: 0.5rem 0;
 
-    .MenuItem {
+    li {
       text-decoration: none;
       color: #666;
       margin: 0;
       padding: 0 0.5rem;
       font-family: Montserrat, sans-serif;
-      font-size: 0.8rem;
-      letter-spacing: 0.12rem;
+      font-size: 1rem;
+      letter-spacing: 0.1rem;
 
       a {
         color: inherit;
@@ -100,18 +100,6 @@
   font-size: 0.8rem;
   font-weight: 300;
   width: 10rem;
-}
-
-.btn-add-book {
-  padding: 0.1rem;
-  margin: 0;
-  border-radius: 3px;
-  font-family: Roboto Slab, Montserrat, sans-serif;
-  font-size: 0.8rem;
-  width: 100%;
-  font-weight: bold;
-  color: #fff;
-  cursor: pointer;
 }
 
 .book {
@@ -265,6 +253,25 @@
       font-family: Montserrat, sans-serif;
       color: #888;
       font-size: 1rem;
+    }
+
+    textarea,
+    input {
+      padding: 0.4rem;
+    }
+
+    .btn-add-book {
+      font-family: Roboto Slab, Montserrat, sans-serif;
+      font-size: 0.8rem;
+      font-weight: 700;
+      background-color: #4386bf;
+      border: none;
+      border-radius: 0.3rem;
+      margin: 0;
+      padding: 0.3rem;
+      width: 100%;
+      color: #fff;
+      cursor: pointer;
     }
   }
 }
