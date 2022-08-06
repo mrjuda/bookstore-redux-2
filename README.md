@@ -11,7 +11,7 @@ This is a React/Redux project for educational purposes only.
 - CSS3
 
 ## 📺 Live Demo
-Live version: NOT YET
+- Netlify: [https://jl-bookstore.netlify.app/](https://jl-bookstore.netlify.app/)
 
 ## ⚙️ Installation
 
